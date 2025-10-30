@@ -81,7 +81,7 @@ cldflags="-pthread -Wl,--gc-sections -flto=auto -fwhole-program"
 
 # Only no need to regenerate this
 # upgrade_guid=$(uuidgen)
-upgrade_guid="11442397-0932-48db-98f3-eeb7704e669a"
+upgrade_guid="bfb8c0ad-8254-487e-82e3-150bbfe207cd"
 if [[ -z "$upgrade_guid" ]]; then
     echo_error "Command uuidgen not found, install with 'sudo apt install uuid-runtime'"
     exit 1
@@ -110,7 +110,7 @@ fi
 # The Guid assigned to the shortcut's <Component> (e.g. AppShortcut) should remain the same across builds, 
 # unless something structurally changes in the shortcut component.
 # shortcut_guid=$(uuidgen)
-shortcut_guid="3e0298de-9989-49c6-9285-23c7e55399b0"
+shortcut_guid="f0069340-1cb6-4a94-89e4-6946d809f8e4"
 if [[ -z "$shortcut_guid" ]]; then
     echo_error "Command uuidgen not found, install with 'sudo apt install uuid-runtime'"
     exit 1
