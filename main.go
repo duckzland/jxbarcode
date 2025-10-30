@@ -62,12 +62,12 @@ func main() {
 	sp := canvas.NewRectangle(color.Transparent)
 	sp.SetMinSize(fyne.NewSize(1, 20))
 
-	win.SetContent(container.NewVBox(
+	win.SetContent(container.NewPadded(container.NewVBox(
 		container.NewBorder(nil, nil, nil, cl, in),
 		su,
 		sp,
 		co,
-	))
+	)))
 
 	win.Resize(fyne.NewSize(400, 400))
 	win.ShowAndRun()
