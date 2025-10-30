@@ -1,0 +1,14 @@
+.history
+.history*
+.vscode
+.vscode/*
+main
+build/*
+static/windows/rsrc_windows*
+static/rsrc_windows*
+static/jxwatcher.zip
+static/android-ndk*
+static/android-sdk*
+rsrc_windows*
+ghtoken.txt
+*/*.old
